@@ -1,0 +1,156 @@
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader-container-jobs {
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-cont {
+  min-height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  background-color: #000000;
+}
+
+@media screen and (max-width: 767px) {
+  .bg-cont {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+  }
+}
+
+.profile-and-filters-cont {
+  width: 80%;
+}
+
+@media screen and (min-width: 768px) {
+  .profile-and-filters-cont {
+    width: 25%;
+    margin-right: 25px;
+  }
+}
+
+.profile-cont {
+  border-radius: 7px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  padding: 15px;
+  font-family: 'roboto';
+}
+
+.profile-name {
+  color: #6366f1;
+}
+
+.jobs-cont {
+  width: 80%;
+}
+
+@media screen and (min-width: 768px) {
+  .jobs-cont {
+    width: 55%;
+  }
+}
+
+.job-failure-view-cont {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'roboto';
+  color: #ffffff;
+  min-height: 100vh;
+}
+
+.jobs-failure-view-pic {
+  width: 70%;
+}
+
+.no-jobs-cont {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'roboto';
+  color: #ffffff;
+  min-height: 100vh;
+}
+
+.no-jobs-pic {
+  width: 70%;
+}
+
+.filters-cont {
+  color: #ffffff;
+  border-top: solid 1px #b6c5ff;
+  margin-top: 20px;
+}
+
+.emp-type-cont {
+  list-style-type: none;
+  padding-left: 0px;
+  border-bottom: solid 1px #b6c5ff;
+}
+
+.salary-range {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.filter-list-item {
+  margin-bottom: 10px;
+}
+
+.search-cont {
+  width: 60%;
+  height: 35px;
+  border: solid 1px #b6c5ff;
+}
+
+.search-bar {
+  width: 90%;
+  height: 100%;
+  border-style: none;
+  outline: none;
+  background-color: transparent;
+  padding: 5px;
+  color: #ffffff;
+}
+
+.search-icon-butt {
+  border-style: none;
+  width: 10%;
+  height: 100%;
+  background-color: #202020;
+  color: #ffffff;
+}
+
+.jobs-list-cont {
+  list-style-type: none;
+  padding-left: 0px;
+  width: 100%;
+}
+
+.retry-butt {
+  background-color: #4f46e5;
+  border-radius: 5px;
+  border-style: none;
+  height: 35px;
+  width: 60px;
+  color: #ffffff;
+  padding: 5px;
+}

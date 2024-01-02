@@ -1,0 +1,83 @@
+.link-item {
+  text-decoration: none;
+  width: 100%;
+}
+
+.job-card {
+  background-color: #202020;
+  width: 100%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+  font-family: 'roboto';
+  color: #ffffff;
+  padding: 20px;
+}
+
+.company-info {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.title-and-rating {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 10px;
+}
+
+.star-icon {
+  color: #fbbf24;
+  margin-right: 10px;
+}
+
+.rating-cont {
+  display: flex;
+  align-items: center;
+}
+
+.location-and-salary {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.loc-and-emp-type-cont {
+  display: flex;
+  align-items: center;
+}
+
+.location-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.emp-type {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brief-case-icon {
+  margin-right: 5px;
+}
+
+.loc-icon {
+  margin-right: 5px;
+}
+
+.hr-line-job-item {
+  width: 100%;
+}
+
+.job-card-des-head {
+  text-align: start;
+  width: 100%;
+}
